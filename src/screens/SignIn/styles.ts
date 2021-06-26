@@ -1,11 +1,11 @@
-import {StyleSheet} from 'react-native';
-import { theme } from '../../global/styles.ts/theme';
+import { StyleSheet } from 'react-native';
 
-export const styleSignIn = StyleSheet.create({
+import { theme } from '../../global/styles/theme';
+
+export const styles = StyleSheet.create({
   container:{
     flex:1,
     justifyContent:'center',
-    backgroundColor: theme.colors.background,
     alignItems: 'center'
   },
   image:{
@@ -15,19 +15,24 @@ export const styleSignIn = StyleSheet.create({
   },
   content:{
     marginTop:-45,
-   // paddingHorizontal:50
+    paddingHorizontal:50
 
   },
   title:{
    color:theme.colors.heading,
    textAlign:'center',
    fontSize:35,
-   marginBottom:8
+   marginBottom:8,
+   fontFamily:theme.fonts.title500,
+   lineHeight:38
   },
-  subTitle:{
+  subtitle:{
    color:theme.colors.heading,
    textAlign:'center',
    fontSize:15,
-   marginBottom:38
+   marginBottom:30,
+   fontFamily:theme.fonts.title500,
+   lineHeight:23
+
   },
 });
