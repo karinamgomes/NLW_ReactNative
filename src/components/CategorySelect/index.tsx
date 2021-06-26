@@ -10,11 +10,13 @@ import { Category } from '../Category';
 type Props = {
   categorySelected: string;
   setCategory: (categoryId: string) => void;
+  hasChecked?: boolean;
 }
 
 export function CategorySelect({ 
   categorySelected, 
-  setCategory 
+  setCategory ,
+  hasChecked = false
 }: Props){
   
   return(
@@ -32,6 +34,7 @@ export function CategorySelect({
             icon={category.icon}
             checked={category.id === categorySelected}
             onPress={() => setCategory(category.id)}
+            hasCheckBox={hasChecked}
           />
         ))
       }
