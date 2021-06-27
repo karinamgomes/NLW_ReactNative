@@ -12,8 +12,8 @@ export function Button({ title, ...rest } : Props){
   return(
     <RectButton 
       style={styles.container} 
-      {...rest }>
-        
+      {...rest }
+    >
       <Text style={styles.title}>
         { title }
       </Text>
