@@ -4,7 +4,9 @@
 <p align="center"💻Aplicativo desenvolvido durante semana NLW da [Rocketseat](https://rocketseat.com.br/) 🚀 para organizar os momento de diversão e jogar com os amigos. 
 Possue funcionalidades de criar grupos para jogar e marcar partidas com autenticação do Discord.</p>
 
-![cover](.github/cover.png?style=flat)
+<h1 align="center">
+  <img alt="moovie" title="#moovie" src="assets/print.jpeg" />
+</h1>
 
 ### 🛠️ Features
 
